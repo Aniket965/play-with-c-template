@@ -1,0 +1,92 @@
+header {
+
+	height: 70px;
+	background-color: #d3ed0e;
+
+}
+.rectangle{
+	margin-top: 70px;
+	height: 550px;
+	display:block;
+	width: 100%;
+    z-index: -1;
+	position: absolute;
+	background-color: #d3ed0e;
+	border-radius: 0 0 550px 550px;
+
+
+}
+
+.logo {
+	display: block;
+	position: absolute;
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+	
+}
+
+nav {
+	 list-style-type: none !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+.navigationBar {
+	display: block;
+    color: #08010f;
+    /**background-color: pink;
+    *
+    */
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 24px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.navigationBar:hover {
+	color:#888;
+	text-decoration: none;
+}
+.leftr {
+	float: right;
+
+}
+.playtheme {
+	font-family: 'Calligraffitti', cursive;
+	
+}
+.play {
+	/**background-color: pink;
+	*
+	*
+	**/
+	font-size: 90px;
+	margin-top: 105px;
+}
+.playbutton {
+	margin-top: 150px;
+
+}
+.play1 {
+	cursor: pointer;
+	display: block;
+	width: 200px;
+	height: 100px;
+	;
+font-family: 'Indie Flower', cursive;
+
+	margin-left:40%;
+	border-radius: 40px 40px 40px 40px;
+
+	transition:transform 100ms cubic-bezier(0,1.91,1,-0.65)   0s;
+	font-size: 80px;
+	
+	border :2px solid ;
+}
+.play1:hover {
+	transform: scale(1.1,1);
+ 
+
+
+}
