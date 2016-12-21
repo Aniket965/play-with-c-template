@@ -31,7 +31,7 @@ header {
     margin-top: 20px;
     margin-left: 40px;
     cursor: pointer;
-	
+
 }
 
 nav {
@@ -62,7 +62,7 @@ nav {
 }
 .playtheme {
 	font-family: 'Calligraffitti', cursive;
-	
+
 }
 .play {
 	/**background-color: pink;
@@ -84,34 +84,34 @@ nav {
 	;
 font-family: 'Indie Flower', cursive;
 
-	margin-left:40%;
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 40px 40px 40px 40px;
 
 	transition:transform 100ms cubic-bezier(0,1.91,1,-0.65)   0s;
 	font-size: 80px;
-	
 	border :2px solid ;
 }
 .play1:hover {
 	transform: scale(1.1,1);
- 
+
 }
 .whyToStrC {
 	display: block;
 	height: 500px;
 
-	
+
 }
 .Aboutpage {
 	height: 350px;
 	background-color: rgba(0,0,0,0.05);
-	
+
 }
 .subscribepage {
 	display: block;
 	height: 350px;
 
-	
+
 }
 .qs
 {
@@ -122,35 +122,40 @@ font-family: 'Indie Flower', cursive;
 }
 
 .as {
+	width: 700px;
 	display: block;
-	margin-left: 20%;
-	margin-right:  20%;
+  margin-left: auto;
+  margin-right: auto;
 	margin-top: 70px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	font-weight: 300;
- opacity: 0;
- transition: all 1s ease-in-out;
- transform: translateX(-150px);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  transform: translateX(-150px);
+	overflow: hidden;
 
 }
 .as1 {
 	display: block;
-	margin-left: 20%;
-	margin-right:  20%;
+	margin-left: auto;
+	margin-right:  auto;
 	margin-top: 70px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	font-weight: 300;
- opacity: 0;
- transition: all 1s ease-in-out;
- transform: translateY(50px);
+  opacity: 0;
+	width: 700px;
+  transition: all 1s ease-in-out;
+  transform: translateY(50px);
 
 }
 .as2 {
 	display: block;
-	margin-left: 20%;
-	margin-right:  20%;
+	margin-left: auto;
+	margin-right:  auto;
+	width: 700px;
+	overflow: hidden;
 	margin-top: 70px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
@@ -162,15 +167,17 @@ font-family: 'Indie Flower', cursive;
 }
 .as3 {
 	display: block;
-	margin-left: 20%;
-	margin-right:  20%;
+	margin-left: auto;
+	margin-right:  auto;
 	margin-top: 70px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 30px;
 	font-weight: 300;
- opacity: 0;
- transition: all 2s cubic-bezier(0,1.91,1,-0.65);
- transform: translateY(50px) rotateX(30deg);
+  opacity: 0;
+	overflow: hidden;
+  width: 700px;
+	transition: all 2s cubic-bezier(0,1.91,1,-0.65);
+  transform: translateY(50px) rotateX(30deg);
 
 }
 .fade-in {
@@ -180,7 +187,7 @@ transform: translateX(0px);
 }
 .fade-up {
 	opacity: 1;
-	transform: translateY(0px); 
+	transform: translateY(0px);
 }
 .shake-up {
 	opacity: 1;
@@ -188,26 +195,26 @@ transform: translateX(0px);
 }
 .box {
 	display: block;
-	min-width: 300px;
+	width: 300px;
 	height: 2px;
-	margin-left: 35%;
-	margin-right: 50%;
+	margin-left: auto;
+	margin-right:  auto;
 	background-color: #d3ed0e;
 }
 .box1 {
 	display: block;
-	min-width: 200px;
+	width: 200px;
 	height: 2px;
-	margin-left: 40%;
-	margin-right: 50%;
+	margin-left: auto;
+	margin-right:auto;
 	background-color: #d3ed0e;
 }
 .box2 {
 	display: block;
-	min-width: 300px;
+	width: 300px;
 	height: 2px;
-	margin-left: 35%;
-	margin-right: 50%;
+	margin-left: auto;
+	margin-right:  auto;
 	background-color: #d3ed0e;
 }
 .space {
